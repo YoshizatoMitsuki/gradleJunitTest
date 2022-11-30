@@ -41,7 +41,7 @@ jobs:
     #     name: code-coverage-report
     #     path: app/build/reports/tests/testDebugUnitTest
 
-  - uses: actions/upload-artifact@v3
-    with:
-      name: Package
-      path: build/libs
+    - uses: actions/upload-artifact@v3
+      with:
+        name: Package
+        path: build/libs
